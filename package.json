@@ -15,7 +15,6 @@
     "react-ui/node_modules"
   ],
   "dependencies": {
-    "axios": "^0.19.0",
     "express": "^4.16.4"
   },
   "repository": {
@@ -29,5 +28,8 @@
     "react"
   ],
   "license": "MIT",
-  "devDependencies": {}
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-plugin-react": "^7.13.0"
+  }
 }

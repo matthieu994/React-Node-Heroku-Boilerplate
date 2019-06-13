@@ -16,7 +16,7 @@ api.get("/welcome", (req, res) => {
 
 // Handle all other requests on /api
 api.get("*", function(req, res) {
-    res.status(404).send({ message: `⚠️  Error ! You are on /api${req.url}` })
+    res.status(501).send({ message: `⚠️ Error ! You are on /api${req.url}` })
 })
 
 module.exports = api
