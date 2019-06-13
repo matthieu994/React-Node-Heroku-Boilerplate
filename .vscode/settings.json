@@ -1,0 +1,7 @@
+{
+    "prettier.printWidth": 120,
+    "prettier.semi": false,
+    "emojisense.languages": {
+        "javascript": true
+    }
+}
